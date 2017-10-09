@@ -1,0 +1,44 @@
+.nav_two{display:none;}
+.bod{height: 1000px;
+    .topnav{margin:12px auto;width: 1000px;}
+    .goods{width: 980px;margin:0 auto;
+        .top{font-size: 12px;margin-bottom:5px;}
+        .title{background-color:#EFEFEF;font-size: 12px;border-top:2px solid #C8C8C8;
+            li{float:left;width: 140px;height: 28px;line-height: 28px;text-align: center;}
+            li:first-child{width: 420px;height: 28px;}
+
+        }
+        .god{
+            ul{overflow: hidden;padding:10px 0;border-bottom:1px solid #E3E3E3;
+                li{float:left;width: 140px;padding:10px 0 ;text-align: center;font-size: 14px;position:relative;line-height: 50px;height: 50px;
+                    img{width: 65px;height: 65px;float:left;}
+                    a{float:left;}
+                    input{width:30px;text-align: center;}
+                    i{display:block;width: 21px;height: 18px;background-image:url('../css/img/sprite1.fw.png');background-position:-989px -6px;position:absolute;left:28px;top:25px;}
+                }
+                li:first-child{width: 420px;position:relative;
+                    a{margin-left:20px;color:#666;}
+                    a:hover{color:#CF5552;}
+                    span{position:absolute;left:86px;top:30px;color:#B4B4B4;}
+                }
+                li:nth-child(2){color:#797979;}
+                li:nth-child(4){color:#FE4E13;}
+
+            }
+        }
+        .total{padding-top:20px;margin-right:20px;
+            span{float:right;}
+            span:first-child{font-weight:bold;color:#FF4D13;}
+            span:last-child{font-size: 12px;margin-top:3px;}
+        }
+        .carbtn{padding:10px 20px 0 0;
+            a{float:right;font-size: 12px;height: 30px;display: block;line-height: 30px;text-align: center;}
+            a:first-child{width: 142px;background-color:#FF8303;font-weight:bold;color:white;border-radius:5px;margin-left:20px;}
+            a:last-child{color:#89D2FF;position:relative;
+                &:hover{color:#CC6600;text-decoration:underline;}
+                i{display: block;width: 22px;height: 22px;background-image:url('../css/img/sprite1.fw.png');background-position:-976px -41px;position:absolute;left:-30px;top: 3px;}
+            }
+
+        }
+    }
+}

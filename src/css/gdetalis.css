@@ -1,0 +1,464 @@
+.nav_two {
+  display: none; }
+
+.nav_all:hover .nav_two {
+  display: block;
+  z-index: 10000; }
+
+.xzoom {
+  position: relative; }
+
+.minzoom {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fc0;
+  background-color: #ff0;
+  background-color: rgba(255, 255, 0, 0.3);
+  filter: alpha(Opacity=30); }
+
+.xzoom-big {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  overflow: hidden; }
+
+.xzoom-big img {
+  position: absolute;
+  left: 0;
+  right: 0; }
+
+#main_bod {
+  height: 800px;
+  width: 1220px;
+  margin: 0 auto; }
+  #main_bod .nav_gdt {
+    color: #A0A0A0;
+    font-size: 12px;
+    padding-top: 5px; }
+    #main_bod .nav_gdt a {
+      color: #A0A0A0;
+      font-size: 12px; }
+  #main_bod .headline {
+    padding-top: 10px; }
+    #main_bod .headline h1 {
+      font-size: 16px; }
+    #main_bod .headline ul {
+      font-size: 14px;
+      margin-bottom: 20px; }
+      #main_bod .headline ul li:nth-child(1) {
+        float: left;
+        color: #aa1800; }
+      #main_bod .headline ul li:nth-child(2) {
+        float: right; }
+  #main_bod .main_con .goods_box {
+    width: 992px;
+    height: 642px;
+    float: left;
+    border: 1px solid #E1E1E1; }
+    #main_bod .main_con .goods_box .glass_box {
+      width: 442px;
+      height: 568px;
+      padding: 10px;
+      float: left; }
+      #main_bod .main_con .goods_box .glass_box .maxglass {
+        width: 422px;
+        height: 491px;
+        position: relative; }
+        #main_bod .main_con .goods_box .glass_box .maxglass .gl_img {
+          display: block;
+          width: 420px;
+          height: 420px;
+          border: 1px solid #eee;
+          position: relative; }
+          #main_bod .main_con .goods_box .glass_box .maxglass .gl_img img {
+            width: 420px;
+            height: 420px; }
+        #main_bod .main_con .goods_box .glass_box .maxglass ul li {
+          float: left;
+          margin: 10px 0 0 20px;
+          width: 60px;
+          height: 60px; }
+          #main_bod .main_con .goods_box .glass_box .maxglass ul li a {
+            display: block;
+            width: 59px;
+            height: 59px;
+            border: 1px solid #999999; }
+      #main_bod .main_con .goods_box .glass_box .glass_end {
+        height: 30px;
+        margin-top: 20px; }
+        #main_bod .main_con .goods_box .glass_box .glass_end p {
+          float: left;
+          padding-left: 20px;
+          font-size: 13px; }
+          #main_bod .main_con .goods_box .glass_box .glass_end p span {
+            color: #FF7357; }
+          #main_bod .main_con .goods_box .glass_box .glass_end p i {
+            display: block;
+            width: 20px;
+            height: 24px;
+            background-image: url(../css/img/sprite1.fw.png);
+            background-position: -712px -1px;
+            float: left; }
+        #main_bod .main_con .goods_box .glass_box .glass_end ul {
+          float: right;
+          font-size: 13px;
+          padding-right: 20px; }
+          #main_bod .main_con .goods_box .glass_box .glass_end ul > li {
+            float: left; }
+            #main_bod .main_con .goods_box .glass_box .glass_end ul > li > a {
+              display: block;
+              width: 28px;
+              height: 29px;
+              background-image: url(../css/img/sprite1.fw.png);
+              background-position: -619px 0px;
+              margin-top: -5px; }
+          #main_bod .main_con .goods_box .glass_box .glass_end ul > li:nth-child(3) > a {
+            background-position: -651px 0px; }
+          #main_bod .main_con .goods_box .glass_box .glass_end ul > li:nth-child(4) > a {
+            background-position: -682px 0px; }
+          #main_bod .main_con .goods_box .glass_box .glass_end ul > li:nth-child(5) {
+            position: relative; }
+            #main_bod .main_con .goods_box .glass_box .glass_end ul > li:nth-child(5) > a {
+              width: 21px;
+              margin-top: -1px;
+              background-position: -735px 0px; }
+            #main_bod .main_con .goods_box .glass_box .glass_end ul > li:nth-child(5) div {
+              position: absolute;
+              left: 0;
+              top: -222px;
+              width: 226px;
+              height: 366px;
+              background-color: #fff;
+              border: 1px solid #eee;
+              display: none; }
+              #main_bod .main_con .goods_box .glass_box .glass_end ul > li:nth-child(5) div dl dt {
+                color: #666;
+                background-color: #F6F6F6;
+                padding: 10px 0 10px 20px;
+                font-size: 16px; }
+              #main_bod .main_con .goods_box .glass_box .glass_end ul > li:nth-child(5) div dl dd {
+                float: left;
+                padding: 10px 0 10px 30px;
+                width: 80px; }
+                #main_bod .main_con .goods_box .glass_box .glass_end ul > li:nth-child(5) div dl dd a {
+                  color: #565656;
+                  font-size: 12px; }
+                #main_bod .main_con .goods_box .glass_box .glass_end ul > li:nth-child(5) div dl dd:hover {
+                  background-color: #c6c6c6; }
+              #main_bod .main_con .goods_box .glass_box .glass_end ul > li:nth-child(5) div p {
+                float: right;
+                padding-top: 10px; }
+                #main_bod .main_con .goods_box .glass_box .glass_end ul > li:nth-child(5) div p a {
+                  color: #565656; }
+                #main_bod .main_con .goods_box .glass_box .glass_end ul > li:nth-child(5) div p a:hover {
+                  color: skyblue; }
+            #main_bod .main_con .goods_box .glass_box .glass_end ul > li:nth-child(5):hover div {
+              display: block; }
+    #main_bod .main_con .goods_box .buy {
+      width: 520px;
+      height: 642px;
+      float: right; }
+      #main_bod .main_con .goods_box .buy .buy_hea {
+        height: 94px;
+        background-color: #F31200; }
+        #main_bod .main_con .goods_box .buy .buy_hea > ul {
+          color: #fff; }
+          #main_bod .main_con .goods_box .buy .buy_hea > ul li {
+            float: left; }
+          #main_bod .main_con .goods_box .buy .buy_hea > ul li:nth-child(1) {
+            height: 94px;
+            width: 71px;
+            background-color: #AA1800;
+            line-height: 94px;
+            text-align: center; }
+          #main_bod .main_con .goods_box .buy .buy_hea > ul li:nth-child(2) {
+            padding-left: 20px; }
+            #main_bod .main_con .goods_box .buy .buy_hea > ul li:nth-child(2) dl {
+              margin-top: 20px; }
+              #main_bod .main_con .goods_box .buy .buy_hea > ul li:nth-child(2) dl dt {
+                font-size: 12px; }
+              #main_bod .main_con .goods_box .buy .buy_hea > ul li:nth-child(2) dl dd {
+                float: left;
+                font-size: 14px;
+                padding: 20px 20px 0 0; }
+              #main_bod .main_con .goods_box .buy .buy_hea > ul li:nth-child(2) dl dd:nth-child(1) {
+                margin-top: 10px; }
+              #main_bod .main_con .goods_box .buy .buy_hea > ul li:nth-child(2) dl dd:nth-child(2) {
+                font-size: 25px;
+                margin-top: -10px; }
+          #main_bod .main_con .goods_box .buy .buy_hea > ul li:nth-child(3) {
+            float: right; }
+            #main_bod .main_con .goods_box .buy .buy_hea > ul li:nth-child(3) a {
+              color: #fff;
+              font-size: 12px; }
+      #main_bod .main_con .goods_box .buy .sale_r {
+        width: 520px; }
+        #main_bod .main_con .goods_box .buy .sale_r ul {
+          padding: 14px 0 11px 44px;
+          font-size: 12px;
+          color: #A8A8A8;
+          border-bottom: 1px dotted #CBCBCB; }
+          #main_bod .main_con .goods_box .buy .sale_r ul li {
+            padding-bottom: 20px; }
+          #main_bod .main_con .goods_box .buy .sale_r ul li:nth-child(1) span:nth-child(1) {
+            float: left;
+            color: #666666; }
+          #main_bod .main_con .goods_box .buy .sale_r ul li:nth-child(1) .slae_price {
+            color: #FF7300; }
+          #main_bod .main_con .goods_box .buy .sale_r ul li:nth-child(1) i {
+            display: block;
+            width: 80px;
+            height: 23px;
+            background-image: url(../css/img/sprite1.fw.png);
+            background-position: -328px -41px;
+            float: left; }
+          #main_bod .main_con .goods_box .buy .sale_r ul li:nth-child(2) span {
+            color: #FF7300; }
+          #main_bod .main_con .goods_box .buy .sale_r ul li:nth-child(3) span:nth-child(1) {
+            color: #000; }
+          #main_bod .main_con .goods_box .buy .sale_r ul li:nth-child(3) span:nth-child(3) {
+            display: block;
+            background-color: #FF7F14;
+            width: 120px;
+            height: 28px;
+            float: right;
+            line-height: 28px;
+            text-align: center;
+            color: #fff; }
+      #main_bod .main_con .goods_box .buy .sale_lo {
+        height: 88px;
+        border-bottom: 1px dotted #CBCBCB; }
+        #main_bod .main_con .goods_box .buy .sale_lo ul {
+          padding: 20px 0 0 44px; }
+          #main_bod .main_con .goods_box .buy .sale_lo ul li {
+            float: left;
+            margin-right: 10px;
+            background-color: #E72001;
+            width: 100px;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            padding-right: 5px; }
+            #main_bod .main_con .goods_box .buy .sale_lo ul li a {
+              display: block;
+              color: #fff;
+              font-size: 13px;
+              width: 100px;
+              height: 28px; }
+          #main_bod .main_con .goods_box .buy .sale_lo ul li:nth-child(2), #main_bod .main_con .goods_box .buy .sale_lo ul li:nth-child(3) {
+            background-color: #FF6835; }
+        #main_bod .main_con .goods_box .buy .sale_lo > a {
+          display: block;
+          margin: 5px 140px 0 0;
+          height: 30px;
+          float: right;
+          font-size: 12px;
+          color: #0C83DF;
+          text-decoration: underline; }
+      #main_bod .main_con .goods_box .buy .sale_size {
+        height: 196px;
+        border-bottom: 1px solid #CBCBCB; }
+        #main_bod .main_con .goods_box .buy .sale_size p {
+          margin: 5px 0 0 10px; }
+          #main_bod .main_con .goods_box .buy .sale_size p a {
+            display: block;
+            font-size: 13px;
+            width: 42px;
+            height: 16px;
+            border: 2px solid #FF0000;
+            color: #646464;
+            padding: 5px 0 5px 14px; }
+        #main_bod .main_con .goods_box .buy .sale_size > div {
+          padding-top: 20px; }
+          #main_bod .main_con .goods_box .buy .sale_size > div > span {
+            float: left;
+            padding-left: 10px;
+            font-size: 13px;
+            color: #666666; }
+          #main_bod .main_con .goods_box .buy .sale_size > div > div {
+            float: right; }
+            #main_bod .main_con .goods_box .buy .sale_size > div > div div {
+              border-bottom: 1px dotted #CBCBCB; }
+              #main_bod .main_con .goods_box .buy .sale_size > div > div div ul {
+                overflow: hidden;
+                padding-top: 10px; }
+                #main_bod .main_con .goods_box .buy .sale_size > div > div div ul li {
+                  float: left;
+                  padding: 0 35px 10px 20px;
+                  text-align: left;
+                  color: #666666; }
+                  #main_bod .main_con .goods_box .buy .sale_size > div > div div ul li span {
+                    font-size: 13px;
+                    font-weight: bold; }
+                  #main_bod .main_con .goods_box .buy .sale_size > div > div div ul li button {
+                    width: 27px;
+                    height: 28px;
+                    background-color: #F8F8F8;
+                    border: 1px solid #CBCBCB;
+                    color: #6F7071;
+                    font-size: 20px;
+                    float: left;
+                    margin-top: -2px; }
+                  #main_bod .main_con .goods_box .buy .sale_size > div > div div ul li input {
+                    display: block;
+                    width: 46px;
+                    height: 26px;
+                    margin-top: -2px;
+                    float: left;
+                    border: 1px solid #CBCBCB; }
+                  #main_bod .main_con .goods_box .buy .sale_size > div > div div ul li input:hover {
+                    border: 1px solid #FF0000; }
+                #main_bod .main_con .goods_box .buy .sale_size > div > div div ul li:nth-child(2) {
+                  font-size: 12px; }
+            #main_bod .main_con .goods_box .buy .sale_size > div > div div:nth-child(3) {
+              border: none; }
+            #main_bod .main_con .goods_box .buy .sale_size > div > div div:nth-child(2) ul li {
+              padding-left: 18px; }
+              #main_bod .main_con .goods_box .buy .sale_size > div > div div:nth-child(2) ul li button:nth-child(1) {
+                margin-left: 2px; }
+      #main_bod .main_con .goods_box .buy .car_btn {
+        height: 105px; }
+        #main_bod .main_con .goods_box .buy .car_btn p {
+          padding: 5px 0 0 20px;
+          color: #D61E00;
+          font-size: 13px; }
+          #main_bod .main_con .goods_box .buy .car_btn p b {
+            color: #D61E00;
+            font-size: 18px; }
+          #main_bod .main_con .goods_box .buy .car_btn p a {
+            font-size: 13px;
+            text-decoration: underline;
+            color: #0CA5ED;
+            padding-left: 5px; }
+        #main_bod .main_con .goods_box .buy .car_btn ul {
+          float: right; }
+          #main_bod .main_con .goods_box .buy .car_btn ul li {
+            float: left;
+            margin: 0 10px; }
+            #main_bod .main_con .goods_box .buy .car_btn ul li a {
+              display: block;
+              width: 187px;
+              height: 48px;
+              line-height: 48px;
+              text-align: center; }
+            #main_bod .main_con .goods_box .buy .car_btn ul li:nth-child(1) a {
+              background-color: #E52019;
+              margin-top: 2px;
+              color: #fff; }
+            #main_bod .main_con .goods_box .buy .car_btn ul li:nth-child(2) a {
+              background-color: #FDF1EE;
+              border: 2px solid #F2968D;
+              color: #B91A00; }
+  #main_bod .main_con .gim {
+    width: 222px;
+    height: 580px;
+    float: right;
+    border: 1px solid #E1E1E1; }
+    #main_bod .main_con .gim h3 {
+      width: 223px;
+      height: 28px;
+      color: #666;
+      text-indent: 24px;
+      line-height: 28px;
+      font-size: 13px;
+      background-color: #F8F8F8;
+      border-bottom: 1px solid #D7D7D7; }
+    #main_bod .main_con .gim .company {
+      height: 265px;
+      padding: 22px 24px 0px;
+      border-bottom: 1px solid #CBCBCB; }
+      #main_bod .main_con .gim .company dl {
+        width: 174px;
+        height: 95px;
+        padding-bottom: 20px; }
+        #main_bod .main_con .gim .company dl dt {
+          padding-bottom: 12px; }
+          #main_bod .main_con .gim .company dl dt a {
+            color: blue;
+            font-size: 13px; }
+        #main_bod .main_con .gim .company dl dd {
+          padding-bottom: 5px;
+          color: #666666;
+          font-size: 13px; }
+          #main_bod .main_con .gim .company dl dd a {
+            color: #666666; }
+        #main_bod .main_con .gim .company dl a:hover {
+          opacity: 0.8; }
+        #main_bod .main_con .gim .company dl dd:nth-child(2) {
+          position: relative; }
+          #main_bod .main_con .gim .company dl dd:nth-child(2) a {
+            display: block;
+            background-image: url(../css/img/sprite1.fw.png);
+            background-position: -90px 0;
+            width: 80px;
+            height: 16px;
+            position: absolute;
+            left: 65px;
+            top: 0; }
+      #main_bod .main_con .gim .company ul li {
+        float: left;
+        padding-bottom: 10px;
+        font-size: 13px; }
+        #main_bod .main_con .gim .company ul li a {
+          color: blue;
+          font-size: 13px;
+          text-decoration: underline;
+          position: relative; }
+          #main_bod .main_con .gim .company ul li a i {
+            display: block;
+            background-image: url(../css/img/sprite1.fw.png);
+            background-position: -588px 0;
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            left: -26px;
+            top: -6px; }
+        #main_bod .main_con .gim .company ul li a:hover {
+          opacity: 0.8; }
+      #main_bod .main_con .gim .company ul li:nth-child(1) {
+        padding-left: 10px; }
+        #main_bod .main_con .gim .company ul li:nth-child(1) a i {
+          background-position: -561px 0; }
+      #main_bod .main_con .gim .company ul li:nth-child(3) {
+        padding-left: 10px; }
+      #main_bod .main_con .gim .company ul li:nth-child(2) {
+        padding-left: 30px; }
+      #main_bod .main_con .gim .company ul li:nth-child(5) {
+        padding-top: 20px; }
+        #main_bod .main_con .gim .company ul li:nth-child(5) a {
+          display: block;
+          width: 175px;
+          height: 30px;
+          background-color: #DE4B33;
+          line-height: 30px;
+          text-align: center;
+          text-decoration: none;
+          color: #fff; }
+    #main_bod .main_con .gim .com_more h4 {
+      color: #535353;
+      font-size: 13px;
+      padding: 5px 0 5px 12px;
+      position: relative; }
+      #main_bod .main_con .gim .com_more h4 a {
+        display: block;
+        background-image: url(../css/img/sprite1.fw.png);
+        background-position: -878px 0;
+        width: 21px;
+        height: 19px;
+        position: absolute;
+        right: 12px;
+        top: 5px; }
+      #main_bod .main_con .gim .com_more h4 a:hover {
+        opacity: 0.8; }
+    #main_bod .main_con .gim .com_more ul li {
+      float: left;
+      padding: 0 0 10px 12px; }
+      #main_bod .main_con .gim .com_more ul li a img {
+        width: 92px;
+        height: 92px; }
+      #main_bod .main_con .gim .com_more ul li span {
+        padding-left: 10px;
+        color: #F31200;
+        font-size: 12px;
+        font-weight: bold; }

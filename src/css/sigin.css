@@ -1,0 +1,67 @@
+.nav_two {
+  display: none; }
+
+#list_bod {
+  height: 1000px; }
+  #list_bod .logoimg {
+    width: 1000px;
+    height: 55px;
+    margin: 40px auto; }
+  #list_bod .sigin {
+    width: 813px;
+    height: 425px;
+    margin: 0 auto; }
+    #list_bod .sigin .sigimg {
+      width: 420px;
+      height: 267px;
+      float: left; }
+      #list_bod .sigin .sigimg img {
+        width: 420px;
+        height: 267px; }
+    #list_bod .sigin .enter {
+      width: 312px;
+      height: 265px;
+      float: right;
+      border: 1px solid #ccc; }
+      #list_bod .sigin .enter .name {
+        padding: 20px 10px; }
+        #list_bod .sigin .enter .name input {
+          width: 230px;
+          height: 30px;
+          padding-left: 5px; }
+      #list_bod .sigin .enter .password {
+        padding: 10px 10px 0 10px; }
+        #list_bod .sigin .enter .password input {
+          width: 230px;
+          height: 30px;
+          padding-left: 5px; }
+      #list_bod .sigin .enter .cokie {
+        padding: 30px 0;
+        font-size: 12px;
+        height: 20px; }
+        #list_bod .sigin .enter .cokie input {
+          margin-left: 20px; }
+        #list_bod .sigin .enter .cokie span {
+          color: #666;
+          padding-bottom: 4px; }
+        #list_bod .sigin .enter .cokie a {
+          float: right;
+          font-size: 12px;
+          margin-right: 20px; }
+      #list_bod .sigin .enter .siginbtn a {
+        display: block;
+        width: 120px;
+        height: 30px;
+        margin: 0 auto;
+        line-height: 30px;
+        text-align: center;
+        background-color: #ccc;
+        border-radius: 10px; }
+      #list_bod .sigin .enter .else {
+        padding-top: 20px;
+        font-size: 12px;
+        margin: 0 20px; }
+        #list_bod .sigin .enter .else a:first-child {
+          color: #666; }
+        #list_bod .sigin .enter .else a:last-child {
+          float: right; }

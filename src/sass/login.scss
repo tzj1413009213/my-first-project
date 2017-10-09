@@ -1,0 +1,82 @@
+.nav_two{display:none;}
+.bod{height: 530px;
+    .logo_img{width: 1000px;margin:60px auto;}
+    .hlogin{width:1000px;margin:0px auto;
+        ul{border-bottom:2px solid #E6E6E6;
+            li{float:left;width: 235px;height: 45px;padding:0 20px;line-height: 45px;text-align: center;font-size: 16px;font-weight:bold;color:#3E3E3E;margin-left:50px;
+                i{display:inline-block;width: 30px;height: 30px;border-radius:50%;background-color:#C40000;line-height: 30px;text-align: center;margin-right:10px;font-size: 14px;color:white;}
+            }
+            li:first-child{border-bottom:2px solid #C40000;}
+        }
+        .from{width: 500px;height: 360px;margin:40px auto;position:relative;
+            .regone,.regtwo,.regthree{position:absolute;left:0;top:0;}
+            .regone{width: 500px;height: 360px;display:block;
+                div{padding:20px 0 ;
+                    input{border:1px solid #CCCCCC;}
+                    span{font-size: 14px;color:#3C3C3C;}
+                }
+                .phone{padding-left:20px;position:relative;
+                    input{width: 260px;height: 30px;background-color:#FAFFBD;}
+                    span:nth-child(n+2){display:block;line-height: 30px;border:1px solid #FFBDBE;color:#C40000;height: 30px;width: 160px;text-align: center;position:absolute;right:-20px;top:20px;display:none;background-color:#FFEBEB;}
+                    span:nth-child(5){border:1px solid #AFEA0E;color:#71B83D;}
+                }
+                .password{padding-left:48px;position:relative;
+                    span{}
+                    input{width: 260px;height: 30px;background-color:#FAFFBD;}
+                    span:nth-child(n+2){display:block;line-height: 30px;border:1px solid #FFBDBE;color:#C40000;height: 30px;width: 160px;text-align: center;position:absolute;right:-20px;top:20px;display:none;background-color:#FFEBEB;}
+                    span:nth-child(4){border:1px solid #AFEA0E;color:#71B83D;}
+                }
+                .seccode{padding-left:35px;position:relative;
+                    .vercode{font-weight:bold;}
+                    .vode_btn{display:inline-block;width: 30px;height: 30px;background-image:url(../css/img/sprite1.fw.png);background-position:-635px -83px;position:absolute;left:270px;top:20px;}
+                    input{width: 120px;height: 30px;background-color:#FFE7E7;}
+                    .vertrue,.verflase{display:block;line-height: 30px;border:1px solid #FFBDBE;color:#C40000;height: 30px;width: 160px;text-align: center;position:absolute;right:-20px;top:20px;display:none;background-color:#FFEBEB;}
+                    .vertrue{border:1px solid #AFEA0E;color:#71B83D;}
+                }
+                .agree{text-align: center;
+
+                 }
+                .loga{margin-top:2px;
+                    a{display:block;width: 280px;height: 40px;text-align: center;line-height: 40px;margin:0 auto;background-color:#C40000;border-radius:10px;color:white;}
+                 }
+            }
+            .regtwo{width: 500px;height: 360px;text-align: center;display:none;
+                div{padding:7px 0;}
+                .username{position:relative;
+                    span{}
+                    input{width: 260px;height: 30px;}
+                    span:nth-child(n+3){display:block;line-height: 30px;border:1px solid #FFBDBE;color:#C40000;height: 30px;width: 160px;text-align: center;position:absolute;right:-86px;top:8px;display:none;background-color:#FFEBEB;}
+                    span:nth-child(5){border:1px solid #AFEA0E;color:#71B83D;}
+                }
+                .email{padding-left:16px;position:relative;
+                    span{}
+                    input{width: 260px;height: 30px;}
+                    span:nth-child(n+3){display:block;line-height: 30px;border:1px solid #FFBDBE;color:#C40000;height: 30px;width: 160px;text-align: center;position:absolute;right:-86px;top:8px;display:none;background-color:#FFEBEB;}
+                    span:nth-child(5){border:1px solid #AFEA0E;color:#71B83D;}
+                }
+                .userid{margin-left:-110px;
+                        .che1{margin-left:100px;}
+                        .che2{margin-left:85px;}
+                        .che3{margin-left:133px;}
+                }
+                .shoproom{padding-left:15px;
+                    span{}
+                    input{width: 260px;height: 30px;}
+                }
+                .invicode{margin-left:-2px;
+                    span{}
+                    input{width: 260px;height: 30px;}
+                }
+                .loga{margin-top:2px;
+                    a{display:block;width: 280px;height: 40px;text-align: center;line-height: 40px;margin:0 auto;background-color:#C40000;border-radius:10px;color:white;}
+                 }
+
+            }
+            .regthree{display:none;width:none 500px;height: 360px;text-align: center;
+                h1{font-size: 18px;position:relative;margin-left:100px;
+                    i{display: block;width: 34px;height: 31px;background-image:url(../css/img/sprite1.fw.png);background-position:-682px -80px;position:absolute;left: 100px;top: -5px;}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,249 @@
+.nav_two {
+  display: none; }
+
+.bod {
+  height: 530px; }
+  .bod .logo_img {
+    width: 1000px;
+    margin: 60px auto; }
+  .bod .hlogin {
+    width: 1000px;
+    margin: 0px auto; }
+    .bod .hlogin ul {
+      border-bottom: 2px solid #E6E6E6; }
+      .bod .hlogin ul li {
+        float: left;
+        width: 235px;
+        height: 45px;
+        padding: 0 20px;
+        line-height: 45px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #3E3E3E;
+        margin-left: 50px; }
+        .bod .hlogin ul li i {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-color: #C40000;
+          line-height: 30px;
+          text-align: center;
+          margin-right: 10px;
+          font-size: 14px;
+          color: white; }
+      .bod .hlogin ul li:first-child {
+        border-bottom: 2px solid #C40000; }
+    .bod .hlogin .from {
+      width: 500px;
+      height: 360px;
+      margin: 40px auto;
+      position: relative; }
+      .bod .hlogin .from .regone, .bod .hlogin .from .regtwo, .bod .hlogin .from .regthree {
+        position: absolute;
+        left: 0;
+        top: 0; }
+      .bod .hlogin .from .regone {
+        width: 500px;
+        height: 360px;
+        display: block; }
+        .bod .hlogin .from .regone div {
+          padding: 20px 0; }
+          .bod .hlogin .from .regone div input {
+            border: 1px solid #CCCCCC; }
+          .bod .hlogin .from .regone div span {
+            font-size: 14px;
+            color: #3C3C3C; }
+        .bod .hlogin .from .regone .phone {
+          padding-left: 20px;
+          position: relative; }
+          .bod .hlogin .from .regone .phone input {
+            width: 260px;
+            height: 30px;
+            background-color: #FAFFBD; }
+          .bod .hlogin .from .regone .phone span:nth-child(n+2) {
+            display: block;
+            line-height: 30px;
+            border: 1px solid #FFBDBE;
+            color: #C40000;
+            height: 30px;
+            width: 160px;
+            text-align: center;
+            position: absolute;
+            right: -20px;
+            top: 20px;
+            display: none;
+            background-color: #FFEBEB; }
+          .bod .hlogin .from .regone .phone span:nth-child(5) {
+            border: 1px solid #AFEA0E;
+            color: #71B83D; }
+        .bod .hlogin .from .regone .password {
+          padding-left: 48px;
+          position: relative; }
+          .bod .hlogin .from .regone .password input {
+            width: 260px;
+            height: 30px;
+            background-color: #FAFFBD; }
+          .bod .hlogin .from .regone .password span:nth-child(n+2) {
+            display: block;
+            line-height: 30px;
+            border: 1px solid #FFBDBE;
+            color: #C40000;
+            height: 30px;
+            width: 160px;
+            text-align: center;
+            position: absolute;
+            right: -20px;
+            top: 20px;
+            display: none;
+            background-color: #FFEBEB; }
+          .bod .hlogin .from .regone .password span:nth-child(4) {
+            border: 1px solid #AFEA0E;
+            color: #71B83D; }
+        .bod .hlogin .from .regone .seccode {
+          padding-left: 35px;
+          position: relative; }
+          .bod .hlogin .from .regone .seccode .vercode {
+            font-weight: bold; }
+          .bod .hlogin .from .regone .seccode .vode_btn {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-image: url(../css/img/sprite1.fw.png);
+            background-position: -635px -83px;
+            position: absolute;
+            left: 270px;
+            top: 20px; }
+          .bod .hlogin .from .regone .seccode input {
+            width: 120px;
+            height: 30px;
+            background-color: #FFE7E7; }
+          .bod .hlogin .from .regone .seccode .vertrue, .bod .hlogin .from .regone .seccode .verflase {
+            display: block;
+            line-height: 30px;
+            border: 1px solid #FFBDBE;
+            color: #C40000;
+            height: 30px;
+            width: 160px;
+            text-align: center;
+            position: absolute;
+            right: -20px;
+            top: 20px;
+            display: none;
+            background-color: #FFEBEB; }
+          .bod .hlogin .from .regone .seccode .vertrue {
+            border: 1px solid #AFEA0E;
+            color: #71B83D; }
+        .bod .hlogin .from .regone .agree {
+          text-align: center; }
+        .bod .hlogin .from .regone .loga {
+          margin-top: 2px; }
+          .bod .hlogin .from .regone .loga a {
+            display: block;
+            width: 280px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            margin: 0 auto;
+            background-color: #C40000;
+            border-radius: 10px;
+            color: white; }
+      .bod .hlogin .from .regtwo {
+        width: 500px;
+        height: 360px;
+        text-align: center;
+        display: none; }
+        .bod .hlogin .from .regtwo div {
+          padding: 7px 0; }
+        .bod .hlogin .from .regtwo .username {
+          position: relative; }
+          .bod .hlogin .from .regtwo .username input {
+            width: 260px;
+            height: 30px; }
+          .bod .hlogin .from .regtwo .username span:nth-child(n+3) {
+            display: block;
+            line-height: 30px;
+            border: 1px solid #FFBDBE;
+            color: #C40000;
+            height: 30px;
+            width: 160px;
+            text-align: center;
+            position: absolute;
+            right: -86px;
+            top: 8px;
+            display: none;
+            background-color: #FFEBEB; }
+          .bod .hlogin .from .regtwo .username span:nth-child(5) {
+            border: 1px solid #AFEA0E;
+            color: #71B83D; }
+        .bod .hlogin .from .regtwo .email {
+          padding-left: 16px;
+          position: relative; }
+          .bod .hlogin .from .regtwo .email input {
+            width: 260px;
+            height: 30px; }
+          .bod .hlogin .from .regtwo .email span:nth-child(n+3) {
+            display: block;
+            line-height: 30px;
+            border: 1px solid #FFBDBE;
+            color: #C40000;
+            height: 30px;
+            width: 160px;
+            text-align: center;
+            position: absolute;
+            right: -86px;
+            top: 8px;
+            display: none;
+            background-color: #FFEBEB; }
+          .bod .hlogin .from .regtwo .email span:nth-child(5) {
+            border: 1px solid #AFEA0E;
+            color: #71B83D; }
+        .bod .hlogin .from .regtwo .userid {
+          margin-left: -110px; }
+          .bod .hlogin .from .regtwo .userid .che1 {
+            margin-left: 100px; }
+          .bod .hlogin .from .regtwo .userid .che2 {
+            margin-left: 85px; }
+          .bod .hlogin .from .regtwo .userid .che3 {
+            margin-left: 133px; }
+        .bod .hlogin .from .regtwo .shoproom {
+          padding-left: 15px; }
+          .bod .hlogin .from .regtwo .shoproom input {
+            width: 260px;
+            height: 30px; }
+        .bod .hlogin .from .regtwo .invicode {
+          margin-left: -2px; }
+          .bod .hlogin .from .regtwo .invicode input {
+            width: 260px;
+            height: 30px; }
+        .bod .hlogin .from .regtwo .loga {
+          margin-top: 2px; }
+          .bod .hlogin .from .regtwo .loga a {
+            display: block;
+            width: 280px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            margin: 0 auto;
+            background-color: #C40000;
+            border-radius: 10px;
+            color: white; }
+      .bod .hlogin .from .regthree {
+        display: none;
+        width: none 500px;
+        height: 360px;
+        text-align: center; }
+        .bod .hlogin .from .regthree h1 {
+          font-size: 18px;
+          position: relative;
+          margin-left: 100px; }
+          .bod .hlogin .from .regthree h1 i {
+            display: block;
+            width: 34px;
+            height: 31px;
+            background-image: url(../css/img/sprite1.fw.png);
+            background-position: -682px -80px;
+            position: absolute;
+            left: 100px;
+            top: -5px; }
